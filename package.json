@@ -1,0 +1,40 @@
+{
+    "name": "slush-html5-app",
+    "description": "Scaffold your next html5 app with webpack and webpack dev server.",
+    "version": "0.0.1",
+    "homepage": "https://github.com/jeantimex/slush-html5-app",
+    "author": {
+        "name": "jeantimex",
+        "email": "jean.timex@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jeantimex/slush-html5-app.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jeantimex/slush-html5-app/issues"
+    },
+    "license": "MIT",
+    "main": "slushfile.js",
+    "engines": {
+        "node": ">= 0.10.26",
+        "npm": ">=1.4.3"
+    },
+    "scripts": {
+        "test": "echo \"No tests\""
+    },
+    "dependencies": {
+        "gulp": "^3.6.2",
+        "gulp-conflict": "^0.4.0",
+        "gulp-install": "^0.1.4",
+        "gulp-rename": "^1.2.0",
+        "gulp-template": "^0.1.1",
+        "iniparser": "^1.0.5",
+        "inquirer": "^3.3.0",
+        "slush": ">=1.0.0",
+        "underscore.string": "^2.3.3"
+    },
+    "keywords": [
+        "slushgenerator"
+    ]
+}
