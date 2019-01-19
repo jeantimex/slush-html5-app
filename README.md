@@ -1,4 +1,7 @@
-# Slush Html5-app [![Build Status](https://secure.travis-ci.org/jeantimex/slush-html5-app.png?branch=master)](https://travis-ci.org/jeantimex/slush-html5-app) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-html5-app.png)](http://badges.enytc.com/for/npm/slush-html5-app)
+# Slush Html5-app
+
+[![Build Status](https://secure.travis-ci.org/jeantimex/slush-html5-app.png?branch=master)](https://travis-ci.org/jeantimex/slush-html5-app)
+[![NPM version](https://badge.fury.io/js/slush-html5-app.svg)](https://badge.fury.io/js/slush-html5-app)
 
 > Scaffold your next html5 app with webpack and webpack dev server.
 
