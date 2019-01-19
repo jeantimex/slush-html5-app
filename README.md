@@ -1,4 +1,4 @@
-# Slush Html5-app
+# Slush HTML Application
 
 [![Build Status](https://secure.travis-ci.org/jeantimex/slush-html5-app.png?branch=master)](https://travis-ci.org/jeantimex/slush-html5-app)
 [![NPM version](https://badge.fury.io/js/slush-html5-app.svg)](https://badge.fury.io/js/slush-html5-app)
