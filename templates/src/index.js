@@ -1,1 +1,4 @@
-console.log(`I'm a silly entry point`);
+import './main.css';
+
+const div = document.querySelector('#app');
+div.innerHTML = 'Hello World';
