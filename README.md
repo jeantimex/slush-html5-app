@@ -19,13 +19,31 @@ $ npm install -g slush-html5-app
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-html5-app
+$ mkdir my-app
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-html5-app && slush html5-app
+$ cd my-app && slush html5-app
+```
+
+Start the dev server:
+
+```bash
+$ npm run start
+```
+
+Run unit tests:
+
+```bash
+$ npm run test
+```
+
+Generate production bundle:
+
+```bash
+$ npm run build
 ```
 
 ## Getting To Know Slush
