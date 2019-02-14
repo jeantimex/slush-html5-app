@@ -1,7 +1,7 @@
 {
     "name": "slush-html5-app",
     "description": "Scaffold your next html5 app with webpack and webpack dev server.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/jeantimex/slush-html5-app",
     "author": {
         "name": "jeantimex",
