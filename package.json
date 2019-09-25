@@ -24,8 +24,7 @@
         "test": "echo \"No tests\""
     },
     "dependencies": {
-        "gulp": "^4.0.2",
-        "gulp-cli": "github:gulpjs/gulp-cli",
+        "gulp": "^3.6.2",
         "gulp-conflict": "^0.4.0",
         "gulp-install": "^1.1.0",
         "gulp-rename": "^1.4.0",
