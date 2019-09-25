@@ -24,15 +24,15 @@
         "test": "echo \"No tests\""
     },
     "dependencies": {
-        "gulp": "^3.6.2",
+        "gulp": "^4.0.2",
         "gulp-conflict": "^0.4.0",
-        "gulp-install": "^0.1.4",
-        "gulp-rename": "^1.2.0",
-        "gulp-template": "^0.1.1",
+        "gulp-install": "^1.1.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-template": "^5.0.0",
         "iniparser": "^1.0.5",
-        "inquirer": "^3.3.0",
-        "slush": ">=1.0.0",
-        "underscore.string": "^2.3.3"
+        "inquirer": "^7.0.0",
+        "slush": ">=1.1.1",
+        "underscore.string": "^3.3.5"
     },
     "keywords": [
         "slushgenerator"
