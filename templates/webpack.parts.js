@@ -8,23 +8,28 @@ const cssnano = require('cssnano');
 const webpack = require('webpack');
 
 exports.page = ({
-  name = '',
+  name = 'index',
   path = '',
   template = require.resolve('html-webpack-plugin/default_index.ejs'),
   title = '',
   entry,
   chunks,
-} = {}) => ({
-  entry,
-  plugins: [
-    new HtmlWebpackPlugin({
-      chunks,
-      filename: `${path && path + '/'}${name || 'index'}.html`,
-      template,
-      title,
-    }),
-  ],
-});
+} = {}) => {
+  if (path) {
+    path += '/';
+  }
+  return {
+    entry,
+    plugins: [
+      new HtmlWebpackPlugin({
+        chunks,
+        filename: path + name + '.html',
+        template,
+        title,
+      }),
+    ],
+  };
+};
 
 exports.clean = path => ({
   plugins: [new CleanWebpackPlugin()],
