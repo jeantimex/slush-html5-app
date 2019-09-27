@@ -1,4 +1,4 @@
 import './main.scss';
 
-const div = document.querySelector('#app');
-div.innerHTML = 'Hello World';
+const div = document.querySelector('#content');
+div.innerHTML = 'HTML5 Application';
